@@ -1,0 +1,39 @@
+.container {
+  background-color: rgb(238, 236, 232);
+}
+
+.background-img {
+  background: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.1),
+      rgba(85, 83, 84, 0.6)
+    ),
+    url("coffee-shop.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.text-primary {
+  color: rgb(116, 87, 34) !important;
+}
+
+.bg-primary {
+  background-color: rgb(116, 87, 34) !important;
+}
+
+.btn-primary {
+  background-color: rgb(116, 87, 34) !important;
+  border-color: rgb(116, 87, 34) !important;
+  align-self: center;
+}
+
+/*--cards---*/
+
+.card-img-top {
+  height: 230px;
+}
+
+form {
+  background-color: white;
+}
